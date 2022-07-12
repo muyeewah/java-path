@@ -1,9 +1,7 @@
 package com.sbolaji.oopbasics.employee;
 
-public class Staff {
+public class Employees {
     public static void main(String[] args) {
-        final int fullTimeWorkRate;
-        int contractWorkRate;
 
         NewEmployee contractor, fullTimeEmployee;
         contractor = new Contractor("contractor", 10, 10);
@@ -11,5 +9,6 @@ public class Staff {
 
         System.out.println(contractor.calculateSalary());
         System.out.println(fullTimeEmployee.calculateSalary());
+
     }
 }
