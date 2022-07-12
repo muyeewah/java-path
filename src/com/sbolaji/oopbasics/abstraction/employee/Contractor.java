@@ -1,4 +1,4 @@
-package com.sbolaji.oopbasics.employee;
+package com.sbolaji.oopbasics.abstraction.employee;
 
 public class Contractor extends NewEmployee {
 
