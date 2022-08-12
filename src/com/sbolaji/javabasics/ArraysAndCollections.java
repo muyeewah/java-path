@@ -11,9 +11,9 @@ public class ArraysAndCollections {
         Employee[] listOfEmployees = {firstEmployee, secondEmployee};
         try {
             System.out.println("Array length is: " + listOfEmployees.length);
-            System.out.println(MessageFormat.format("2nd employee is: {0}", listOfEmployees[1].getEmployeeName()));
+            System.out.println(MessageFormat.format("2nd employee is: {0}", listOfEmployees[2].getEmployeeName()));
         }
-        catch (Exception exceptionMessage) {
+        catch (ArrayIndexOutOfBoundsException exceptionMessage) {
             System.out.println(exceptionMessage.getMessage());
         }
     }
